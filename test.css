@@ -1,0 +1,16 @@
+body {
+  background-color: #e3f6fc; /* light milky blue */
+}
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+#myInput {
+  width: 250px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+#submitBtn {
+  width:
