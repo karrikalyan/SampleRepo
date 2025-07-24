@@ -7,10 +7,27 @@ body {
   align-items: center;
   margin-top: 50px;
 }
+
 #myInput {
   width: 250px;
   padding: 8px;
   margin-bottom: 10px;
+  border: 2px solid grey;
+  border-radius: 8px;
 }
+
+#myInput:hover {
+  border: 2px solid red;
+}
+
 #submitBtn {
-  width:
+  width: 100px;
+  height: 30px;
+  padding: 8px;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+
+#submitBtn:hover {
+  border: 2px solid red;
+}
