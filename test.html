@@ -7,14 +7,22 @@
 </head>
 <body>
   <div class="center-container">
-    <input type="text" id="myInput" placeholder="Enter text here">
+    <div class="input-row">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" placeholder="First Name">
+    </div>
+    <div class="input-row">
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" placeholder="Last Name">
+    </div>
     <button id="submitBtn">Submit</button>
   </div>
 
   <script>
     document.getElementById('submitBtn').addEventListener('click', function() {
-      const inputValue = document.getElementById('myInput').value;
-      alert(inputValue);
+      const firstName = document.getElementById('firstName').value;
+      const lastName = document.getElementById('lastName').value;
+      alert(firstName + ' ' + lastName);
     });
   </script>
 </body>

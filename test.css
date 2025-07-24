@@ -31,3 +31,26 @@ body {
 #submitBtn:hover {
   border: 2px solid red;
 }
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+#firstName,
+#lastName {
+  height: 20px;
+  width: 250px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+
+#firstName:hover,
+#lastName:hover {
+  border: 2px solid red;
+}
